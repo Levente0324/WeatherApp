@@ -1,0 +1,208 @@
+html {
+  background: linear-gradient(to top right, #000000cb, #292929e2);
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.herodiv {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.herotext {
+  font-size: 10rem;
+  background: linear-gradient(to right, #00ffe5, #ae00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.searchalldiv {
+  margin-left: 780px;
+}
+
+.searchdiv {
+  text-align: center;
+  height: 70px;
+  width: 397px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.searchinput {
+  height: 70px;
+  width: 390px;
+  background: #1c1f2b;
+  border-radius: 10px;
+  font-size: 35px;
+  color: white;
+  border-color: transparent;
+  padding-left: 10px;
+}
+
+.searchdiv::after,
+.searchdiv::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  translate: -49% -47%;
+  z-index: -1;
+  padding: 6px;
+  border-radius: 10px;
+  background-image: conic-gradient(red, #00ff99, #006aff, #ff0095);
+}
+
+.searchdiv::before {
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+
+.searchbtndiv {
+  text-align: center;
+  margin-top: 100px;
+  width: 200px;
+  height: 70px;
+  margin-left: 885px;
+  position: relative;
+}
+
+.searchbtndiv::after,
+.searchbtndiv::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 2px;
+  border-radius: 10px;
+  background-image: conic-gradient(red, #00ff99, #006aff, #ff0095);
+}
+
+.searchbtndiv::before {
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+
+.searchbtn {
+  width: 200px;
+  height: 70px;
+  font-size: 28px;
+  background: #1c1f2b;
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
+
+.searchbtn:hover {
+  background: #565656;
+  color: white;
+}
+
+.searchbtn:active {
+  background: #808080;
+  color: white;
+}
+
+.content {
+  min-height: calc(100vh - 181px);
+  margin: 0;
+}
+
+footer {
+  height: 50px;
+  margin: 0;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.card {
+  margin: 0 auto;
+  width: 500px;
+  height: 400px;
+  background: #292d3d;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.card::after,
+.card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 3px;
+  border-radius: 10px;
+  background-image: conic-gradient(red, #00ff99, #006aff, #ff0095);
+}
+
+.card::before {
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+
+.cardName {
+  width: 100%;
+  height: 80px;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+.cardMain {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.mainImg {
+  height: 100%;
+  width: 200px;
+}
+
+.temp {
+  padding-top: 50px;
+}
+
+.cardItemek {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.visibility,
+.uv,
+.rain,
+.wind {
+  width: 100px;
+  height: 100%;
+}
